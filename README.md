@@ -10,7 +10,7 @@
 
 ## 실행 방법
 
-1. Ollama를 설치하고 모델을 내려받습니다.
+1. Ollama를 설치하고 비교할 모델을 내려받습니다.
 
 ```powershell
 ollama pull gemma3:1b
