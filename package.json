@@ -1,8 +1,8 @@
 {
-  "name": "lion-llm-personal-chatbot",
+  "name": "career-counseling-chatbot",
   "version": "1.0.0",
   "private": true,
-  "description": "Ollama local model chatbot workshop app",
+  "description": "Local LLM career counseling chatbot with prompt engineering",
   "type": "module",
   "scripts": {
     "start": "node server.js",

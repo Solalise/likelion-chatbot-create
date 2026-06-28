@@ -3,17 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ollama 챗봇</title>
+    <title>진로상담 챗봇</title>
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
     <div class="app-shell">
       <aside class="sidebar">
         <div class="brand">
-          <div class="brand-mark">LL</div>
+          <div class="brand-mark">진</div>
           <div>
-            <strong>LLM 실습</strong>
-            <span>Ollama 챗봇</span>
+            <strong>진로상담</strong>
+            <span>AI 멘토 챗봇</span>
           </div>
         </div>
 
@@ -49,16 +49,16 @@
         </div>
 
         <div class="prompt-note">
-          개인정보와 기본 성격은 <code>prompts/personal-profile.json</code>에서
-          수정합니다.
+          챗봇의 역할과 응답 방식은
+          <code>prompts/personal-profile.json</code>에서 수정합니다.
         </div>
       </aside>
 
       <main class="chat">
         <header class="chat-header">
           <div>
-            <h1>Ollama 챗봇</h1>
-            <p>로컬 Ollama 모델과 분리된 JSON 프롬프트로 답변합니다.</p>
+            <h1>진로상담 챗봇</h1>
+            <p>진로 고민, 직무 탐색, 학습 계획까지 도와주는 AI 멘토입니다.</p>
           </div>
           <div class="status" id="status">Ollama 확인 중</div>
         </header>
@@ -69,21 +69,21 @@
             <div class="suggestions">
               <button
                 type="button"
-                data-prompt="웹해킹을 어떤 순서로 공부해야할지 공부순서 작성해줘."
+                data-prompt="제가 진로를 아직 정하지 못했는데, 어떤 방향으로 생각하면 좋을까요?"
               >
-                웹해킹 공부순서
+                진로 방향 고민
               </button>
               <button
                 type="button"
-                data-prompt="취업 준비를 위해 해야 할 것들을 순서대로 작성한 로드맵 세워줘."
+                data-prompt="저는 IT 쪽에 관심이 있는데, 어떤 직무가 잘 맞을지 분석해줘."
               >
-                취업 로드맵
+                직무 탐색
               </button>
               <button
                 type="button"
-                data-prompt="현재 내 스펙을 보고 포트폴리오를 평가 후 피드백해줘."
+                data-prompt="제 목표와 성향을 바탕으로 3개월 학습 계획을 짜줘."
               >
-                포트폴리오 피드백
+                학습 계획 세우기
               </button>
             </div>
           </div>

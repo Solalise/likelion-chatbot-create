@@ -17,9 +17,9 @@ const emptyStateHtml = `
   <div class="empty-state">
     <h2>무엇을 물어볼까요?</h2>
     <div class="suggestions">
-      <button type="button" data-prompt="웹해킹을 어떤 순서로 공부해야할지 공부순서 작성해줘.">웹해킹 공부순서</button>
-      <button type="button" data-prompt="취업 준비를 위해 해야 할 것들을 순서대로 작성한 로드맵 세워줘.">취업 로드맵</button>
-      <button type="button" data-prompt="현재 내 스펙을 보고 포트폴리오를 평가 후 피드백해줘.">포트폴리오 피드백</button>
+      <button type="button" data-prompt="제가 진로를 아직 정하지 못했는데, 어떤 방향으로 생각하면 좋을까요?">진로 방향 고민</button>
+      <button type="button" data-prompt="저는 IT 쪽에 관심이 있는데, 어떤 직무가 잘 맞을지 분석해줘.">직무 탐색</button>
+      <button type="button" data-prompt="제 목표와 성향을 바탕으로 3개월 학습 계획을 짜줘.">학습 계획 세우기</button>
     </div>
   </div>
 `
